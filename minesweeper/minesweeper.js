@@ -2,8 +2,8 @@ class MineSweeper {
 
     tablero = []
     minas = []
-    tamanoTablero = 4
-    numMinas = 4
+    tamanoTablero = 3
+    numMinas = 3
     aciertos = []
 
     constructor() {
@@ -28,6 +28,7 @@ class MineSweeper {
             let y = this.getNumAleatorio(0, this.numMinas - 1)
             this.minas.push([x,y])
         }
+        this.minas = this.limpiarArrayDuplicado(this.minas)
     }
 
     comenzarJuego() {
@@ -99,6 +100,15 @@ class MineSweeper {
             return true
         }
         return false
+    }
+
+    limpiarArrayDuplicado(array) {
+        let arrayClean = array.reduce(function(out, item) {
+            return out.concat(out.filter(function(comp) {
+                return item.toString() == comp.toString();
+            }).length ? [] : [item])
+        }, []);
+        return arrayClean
     }
 
     getNumAleatorio(min, max) {
