@@ -1,0 +1,25 @@
+.u-text {
+
+    &--center {
+        text-align: center;
+    }
+}
+
+@each $position,
+$props in $positions {
+
+    @each $size,
+    $value in $sizes {
+        .p#{$position}#{$size} {
+            @each $prop in $props {
+                padding#{$prop}: $value * if($value ==0, 0, 1rem);
+            }
+        }
+
+        .m#{$position}#{$size} {
+            @each $prop in $props {
+                margin#{$prop}: $value * if($value ==0, 0, 1rem);
+            }
+        }
+    }
+}

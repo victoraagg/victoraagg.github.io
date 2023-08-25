@@ -1,0 +1,28 @@
+$primary-color: #4776e6;
+$secondary-color: #8e54e9;
+$aditional-color: #3059be;
+$text-color: #777;
+$white: #fff;
+$black: #141414;
+$black-opacity: rgba(20, 20, 20, .5);
+$primary-opacity-color: rgba(71, 118, 230, .8);
+$secondary-opacity-color: rgba(142, 84, 233, .8);
+$gutter-width: 6rem;
+$positions: (
+    'a': (''),
+    'h': (-left,
+        -right),
+    'v': (-bottom,
+        -top),
+    'l': -left,
+    'r': -right,
+    't': -top,
+    'b': -bottom
+);
+$sizes: (
+    'n': 0,
+    's': 1,
+    'm': 3,
+    'l': 6
+);
+$cols: 4;
