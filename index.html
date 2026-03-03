@@ -18,10 +18,21 @@
 <meta name="twitter:title" content="Víctor Alonso" />
 <meta name="twitter:description" content="Software Engineer." />
 <meta name="twitter:image" content="https://victoraagg.github.io/og-image.png" />
+<script>
+  (() => {
+    const storedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = storedTheme || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
 <link rel="stylesheet" href="./style.css" />
 <link rel="stylesheet" href="./animation.css" />
 </head>
 <body>
+  <button class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+    🌙
+  </button>
   <div class="animation">
     <div class='dino'></div>
     <div class='eye'></div>
@@ -43,5 +54,6 @@
     </div>
   </div>
   <script src="./animation.js"></script>
+  <script src="./theme.js"></script>
 </body>
 </html>

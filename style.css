@@ -1,16 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap');
 
 :root {
-  --bg: #000000;
-  --text: #ffffff;
-  --btn: #282d33;
-  --btn-hover: #353b42;
+  --bg: #f6f7fb;
+  --text: #0f172a;
+  --btn: #dce3ef;
+  --btn-hover: #cdd7e6;
   --btn-opacity: 70%;
   --btn-hover-opacity: 85%;
   --btn-bg: color-mix(in srgb, var(--btn) var(--btn-opacity), transparent);
   --btn-hover-bg: color-mix(in srgb, var(--btn-hover) var(--btn-hover-opacity), transparent);
   --accent: #6F42C1;
   --accent-secondary: #3b82f6;
+  --dino: #4b5563;
+}
+
+:root[data-theme='dark'] {
+  --bg: #000000;
+  --text: #ffffff;
+  --btn: #282d33;
+  --btn-hover: #353b42;
+  --dino: #737373;
 }
 
 * {
@@ -58,6 +67,27 @@ body {
     font-weight: normal;
   }
 }
+
+.theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.45rem 0.8rem .55rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--btn-bg);
+  color: var(--text);
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--btn-hover-bg);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent-secondary);
+} 
 
 .links {
   display: flex;

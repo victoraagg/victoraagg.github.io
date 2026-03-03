@@ -1,5 +1,4 @@
 :root {
-  --dino: #737373;
   --eye-frame-open: 3em -9em var(--dino);
   --eye-frame-closed: 0 0 0 0 var(--dino);
 
