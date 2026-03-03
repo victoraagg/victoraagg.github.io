@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>Víctor Alonso</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
@@ -17,7 +18,7 @@
 <meta name="twitter:title" content="Víctor Alonso" />
 <meta name="twitter:description" content="Software Engineer." />
 <meta name="twitter:image" content="https://victoraagg.github.io/og-image.png" />
-<title>Víctor Alonso</title>
+<link rel="stylesheet" href="./animation.css" />
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap');
 
@@ -32,7 +33,6 @@
   --btn-hover-bg: color-mix(in srgb, var(--btn-hover) var(--btn-hover-opacity), transparent);
   --accent: #6F42C1;
   --accent-secondary: #3b82f6;
-  --blob-fill: color-mix(in srgb, var(--accent) 60%, var(--accent-secondary) 40%);
 }
 
 * {
@@ -59,25 +59,6 @@ body {
   font-weight: normal;
 }
 
-.blob {
-  position: absolute;
-  top: 0;
-  left: 0;
-  fill: var(--blob-fill);
-  width: 50vmax;
-  z-index: 1;
-  animation: move 20s ease-in-out infinite;
-}
-
-@keyframes move {
-  0% { transform: scale(1) translate(10px, -30px); }
-  38% { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
-  40% { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
-  78% { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
-  80% { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
-  100% { transform: scale(1) translate(10px, -30px); }
-}
-
 .container {
   padding: 1.5rem;
   margin-inline: auto;
@@ -91,11 +72,6 @@ body {
     font-size: clamp(2.5rem, 6vw, 6rem);
     font-weight: 800;
     letter-spacing: clamp(-0.2rem, calc(-0.1rem - 0.15vw), -0.1rem);
-
-    .outlined {
-      color: transparent;
-      -webkit-text-stroke: 1.5px #fff;
-    }
   }
 
   h2 {
@@ -129,14 +105,15 @@ body {
 </style>
 </head>
 <body>
-  <div class="blob">
-    <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
-      <path d="M289.52,91.41c-20.01-38.48-61.86-62.06-93.45-75.08-12.67-5.2-25.4-9.18-37.9-11.83l-1.47-.29c-31.23-6.54-60.83-5.43-85.6,3.21C30.46,21.67,3.33,58.28.31,102.97c-2.72,39.85,12.92,78.69,28.05,116.26,2.01,5,4.09,10.16,6.05,15.15,6.34,16.14,10.9,28.65,14.78,40.57,6.53,19.97,18.86,37.91,34.72,50.53,16.17,12.87,35.11,19.56,55.13,19.56,2.33,0,4.67-.09,7.02-.27,34.34-2.7,62.96-28.31,84.06-50.33,29.73-30.99,42.05-49.69,57.32-86.99,22.68-55.56,13.64-93.77,2.07-116.04Z"/>
-    </svg>
+  <div class="animation">
+    <div class='dino'></div>
+    <div class='eye'></div>
+    <div class='mouth'></div>
+    <div class='ground'></div>
   </div>
   <div class="container">
     <div class="header">
-      <h1><span class="outlined">&lt;</span>Víctor Alonso<span class="outlined">/&gt;</span></h1>
+      <h1><span>&lt;</span>Víctor Alonso<span>/&gt;</span></h1>
       <h2>Software Engineer.</h2>
     </div>
     <div class="links">
@@ -148,5 +125,25 @@ body {
       </a>
     </div>
   </div>
+  <script>
+    const animationEl = document.querySelector('.animation');
+
+    function jumpDino() {
+      if (!animationEl) {
+        return;
+      }
+
+      animationEl.classList.remove('jump');
+      void animationEl.offsetWidth;
+      animationEl.classList.add('jump');
+    }
+
+    document.addEventListener('keydown', (event) => {
+      if (event.code === 'Space') {
+        event.preventDefault();
+        jumpDino();
+      }
+    });
+  </script>
 </body>
 </html>

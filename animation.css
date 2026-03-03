@@ -1,0 +1,227 @@
+:root {
+  --dino: #616161;
+}
+
+@-webkit-keyframes eye {
+  0% {
+    box-shadow:  3em -9em var(--dino);
+  }
+  5% {
+    box-shadow: 0 0 0 0 var(--dino);
+  }
+  50% {
+    box-shadow:  0em 0em var(--dino);
+  }
+}
+
+@-moz-keyframes eye {
+  0% {
+    box-shadow:  3em -9em var(--dino);
+  }
+  5% {
+    box-shadow: 0 0 0 0 var(--dino);
+  }
+  50% {
+    box-shadow:  0em 0em var(--dino);
+  }
+}
+
+@keyframes eye {
+  0% {
+    box-shadow:  3em -9em var(--dino);
+  }
+  5% {
+    box-shadow: 0 0 0 0 var(--dino);
+  }
+  50% {
+    box-shadow:  0em 0em var(--dino);
+  }
+}
+
+@-webkit-keyframes mouth {
+  0% {
+    box-shadow:  6em -4em var(--dino) , 7em -4em var(--dino) , 8em -4em var(--dino);
+  }
+  50% {
+    box-shadow:  5em -3em var(--dino) , 6em -3em var(--dino) , 7em -3em var(--dino) , 8em -3em var(--dino);
+  }
+}
+
+@-moz-keyframes mouth {
+  0% {
+    box-shadow:  6em -4em var(--dino) , 7em -4em var(--dino) , 8em -4em var(--dino);
+  }
+  50% {
+    box-shadow:  5em -3em var(--dino) , 6em -3em var(--dino) , 7em -3em var(--dino) , 8em -3em var(--dino);
+  }
+}
+
+@keyframes mouth {
+  0% {
+    box-shadow:  6em -4em var(--dino) , 7em -4em var(--dino) , 8em -4em var(--dino);
+  }
+  50% {
+    box-shadow:  5em -3em var(--dino) , 6em -3em var(--dino) , 7em -3em var(--dino) , 8em -3em var(--dino);
+  }
+}
+
+@keyframes comets {
+  0% {
+    box-shadow:  -23em -23em var(--dino),  -20em -20em var(--dino),  -18em -18em var(--dino),  -17em -17em var(--dino),  -16em -16em var(--dino),  -15em -15em var(--dino),  -13em -14em var(--dino) , -12em -14em var(--dino) , -11em -14em var(--dino),  -14em -13em var(--dino) , -13em -13em var(--dino) , -12em -13em var(--dino) , -11em -13em var(--dino) , -10em -13em var(--dino),  -14em -12em var(--dino) , -13em -12em var(--dino) , -11em -12em var(--dino) , -10em -12em var(--dino),  -14em -11em var(--dino) , -13em -11em var(--dino) , -12em -11em var(--dino) , -11em -11em var(--dino) , -10em -11em var(--dino),  -13em -10em var(--dino) , -12em -10em var(--dino) , -11em -10em var(--dino),  -9em -19em var(--dino),  -8em -18em var(--dino),  -7em -17em var(--dino),  -6em -16em var(--dino) , -5em -16em var(--dino),  -6em -15em var(--dino) , -5em -15em var(--dino);
+  }
+  33% {
+    box-shadow:  -24em -24em var(--dino),  -21em -21em var(--dino),  -18em -18em var(--dino),  -17em -17em var(--dino),  -16em -16em var(--dino),  -15em -15em var(--dino),  -13em -14em var(--dino) , -12em -14em var(--dino) , -11em -14em var(--dino),  -14em -13em var(--dino) , -13em -13em var(--dino) , -12em -13em var(--dino) , -11em -13em var(--dino) , -10em -13em var(--dino),  -14em -12em var(--dino) , -13em -12em var(--dino) , -11em -12em var(--dino) , -10em -12em var(--dino),  -14em -11em var(--dino) , -13em -11em var(--dino) , -12em -11em var(--dino) , -11em -11em var(--dino) , -10em -11em var(--dino),  -13em -10em var(--dino) , -12em -10em var(--dino) , -11em -10em var(--dino),  -10em -20em var(--dino),  -9em -19em var(--dino),  -8em -18em var(--dino),  -7em -17em var(--dino),  -6em -16em var(--dino) , -5em -16em var(--dino),  -6em -15em var(--dino) , -5em -15em var(--dino);
+  }
+  66% {
+    box-shadow:  -26em -26em var(--dino),  -22em -22em var(--dino),  -18em -18em var(--dino),  -17em -17em var(--dino),  -16em -16em var(--dino),  -15em -15em var(--dino),  -13em -14em var(--dino) , -12em -14em var(--dino) , -11em -14em var(--dino),  -14em -13em var(--dino) , -13em -13em var(--dino) , -12em -13em var(--dino) , -11em -13em var(--dino) , -10em -13em var(--dino),  -14em -12em var(--dino) , -13em -12em var(--dino) , -11em -12em var(--dino) , -10em -12em var(--dino),  -14em -11em var(--dino) , -13em -11em var(--dino) , -12em -11em var(--dino) , -11em -11em var(--dino) , -10em -11em var(--dino),  -13em -10em var(--dino) , -12em -10em var(--dino) , -11em -10em var(--dino),  -11em -21em var(--dino),  -9em -19em var(--dino),  -8em -18em var(--dino),  -7em -17em var(--dino),  -6em -16em var(--dino) , -5em -16em var(--dino),  -6em -15em var(--dino) , -5em -15em var(--dino);
+  }
+}
+
+@-webkit-keyframes ground {
+  0% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  8em 8em var(--dino) , 9em 8em var(--dino) , 10em 8em var(--dino),  -7em 9em var(--dino) , -6em 9em var(--dino),  6em 10em var(--dino) , 7em 10em var(--dino),  -10em 11em var(--dino) , -9em 11em var(--dino);
+  }
+  15% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  4em 8em var(--dino) , 5em 8em var(--dino) , 6em 8em var(--dino),  -12em 9em var(--dino) , -11em 9em var(--dino),  2em 10em var(--dino) , 3em 10em var(--dino),  10em 11em var(--dino) , 11em 11em var(--dino);
+  }
+  30% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  0em 8em var(--dino) , 1em 8em var(--dino) , 2em 8em var(--dino),  8em 9em var(--dino) , 9em 9em var(--dino),  -2em 10em var(--dino) , -1em 10em var(--dino),  6em 11em var(--dino) , 7em 11em var(--dino);
+  }
+  45% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  -4em 8em var(--dino) , -3em 8em var(--dino) , -2em 8em var(--dino),  4em 9em var(--dino) , 5em 9em var(--dino),  -6em 10em var(--dino) , -5em 10em var(--dino),  2em 11em var(--dino) , 3em 11em var(--dino);
+  }
+  60% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  -8em 8em var(--dino) , -7em 8em var(--dino) , -6em 8em var(--dino),  0em 9em var(--dino) , 1em 9em var(--dino),  -10em 10em var(--dino) , -9em 10em var(--dino),  -2em 11em var(--dino) , -1em 11em var(--dino);
+  }
+  75% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  -12em 8em var(--dino) , -11em 8em var(--dino) , -10em 8em var(--dino),  -4em 9em var(--dino) , -3em 9em var(--dino),  10em 10em var(--dino) , 11em 10em var(--dino),  -6em 11em var(--dino) , -5em 11em var(--dino);
+  }
+}
+
+@-moz-keyframes ground {
+  0% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  8em 8em var(--dino) , 9em 8em var(--dino) , 10em 8em var(--dino),  -7em 9em var(--dino) , -6em 9em var(--dino),  6em 10em var(--dino) , 7em 10em var(--dino),  -10em 11em var(--dino) , -9em 11em var(--dino);
+  }
+  15% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  4em 8em var(--dino) , 5em 8em var(--dino) , 6em 8em var(--dino),  -12em 9em var(--dino) , -11em 9em var(--dino),  2em 10em var(--dino) , 3em 10em var(--dino),  10em 11em var(--dino) , 11em 11em var(--dino);
+  }
+  30% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  0em 8em var(--dino) , 1em 8em var(--dino) , 2em 8em var(--dino),  8em 9em var(--dino) , 9em 9em var(--dino),  -2em 10em var(--dino) , -1em 10em var(--dino),  6em 11em var(--dino) , 7em 11em var(--dino);
+  }
+  45% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  -4em 8em var(--dino) , -3em 8em var(--dino) , -2em 8em var(--dino),  4em 9em var(--dino) , 5em 9em var(--dino),  -6em 10em var(--dino) , -5em 10em var(--dino),  2em 11em var(--dino) , 3em 11em var(--dino);
+  }
+  60% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  -8em 8em var(--dino) , -7em 8em var(--dino) , -6em 8em var(--dino),  0em 9em var(--dino) , 1em 9em var(--dino),  -10em 10em var(--dino) , -9em 10em var(--dino),  -2em 11em var(--dino) , -1em 11em var(--dino);
+  }
+  75% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  -12em 8em var(--dino) , -11em 8em var(--dino) , -10em 8em var(--dino),  -4em 9em var(--dino) , -3em 9em var(--dino),  10em 10em var(--dino) , 11em 10em var(--dino),  -6em 11em var(--dino) , -5em 11em var(--dino);
+  }
+}
+
+@keyframes ground {
+  0% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  8em 8em var(--dino) , 9em 8em var(--dino) , 10em 8em var(--dino),  -7em 9em var(--dino) , -6em 9em var(--dino),  6em 10em var(--dino) , 7em 10em var(--dino),  -10em 11em var(--dino) , -9em 11em var(--dino);
+  }
+  15% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  4em 8em var(--dino) , 5em 8em var(--dino) , 6em 8em var(--dino),  -12em 9em var(--dino) , -11em 9em var(--dino),  2em 10em var(--dino) , 3em 10em var(--dino),  10em 11em var(--dino) , 11em 11em var(--dino);
+  }
+  30% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  0em 8em var(--dino) , 1em 8em var(--dino) , 2em 8em var(--dino),  8em 9em var(--dino) , 9em 9em var(--dino),  -2em 10em var(--dino) , -1em 10em var(--dino),  6em 11em var(--dino) , 7em 11em var(--dino);
+  }
+  45% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  -4em 8em var(--dino) , -3em 8em var(--dino) , -2em 8em var(--dino),  4em 9em var(--dino) , 5em 9em var(--dino),  -6em 10em var(--dino) , -5em 10em var(--dino),  2em 11em var(--dino) , 3em 11em var(--dino);
+  }
+  60% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  -8em 8em var(--dino) , -7em 8em var(--dino) , -6em 8em var(--dino),  0em 9em var(--dino) , 1em 9em var(--dino),  -10em 10em var(--dino) , -9em 10em var(--dino),  -2em 11em var(--dino) , -1em 11em var(--dino);
+  }
+  75% {
+    box-shadow:  -12em 6em var(--dino) , -11em 6em var(--dino) , -10em 6em var(--dino) , -9em 6em var(--dino) , -8em 6em var(--dino) , -7em 6em var(--dino) , -6em 6em var(--dino) , 4em 6em var(--dino) , 5em 6em var(--dino) , 6em 6em var(--dino) , 7em 6em var(--dino) , 8em 6em var(--dino) , 9em 6em var(--dino) , 10em 6em var(--dino) , 11em 6em var(--dino) , 12em 6em var(--dino),  -12em 8em var(--dino) , -11em 8em var(--dino) , -10em 8em var(--dino),  -4em 9em var(--dino) , -3em 9em var(--dino),  10em 10em var(--dino) , 11em 10em var(--dino),  -6em 11em var(--dino) , -5em 11em var(--dino);
+  }
+}
+
+@-webkit-keyframes dino {
+  0% {
+    box-shadow:  2em -10em var(--dino) , 3em -10em var(--dino) , 4em -10em var(--dino) , 5em -10em var(--dino) , 6em -10em var(--dino) , 7em -10em var(--dino) , 8em -10em var(--dino) , 9em -10em var(--dino),  1em -9em var(--dino) , 2em -9em var(--dino) , 4em -9em var(--dino) , 5em -9em var(--dino) , 6em -9em var(--dino) , 7em -9em var(--dino) , 8em -9em var(--dino) , 9em -9em var(--dino) , 10em -9em var(--dino),  1em -8em var(--dino) , 2em -8em var(--dino) , 3em -8em var(--dino) , 4em -8em var(--dino) , 5em -8em var(--dino) , 6em -8em var(--dino) , 7em -8em var(--dino) , 8em -8em var(--dino) , 9em -8em var(--dino) , 10em -8em var(--dino),  1em -7em var(--dino) , 2em -7em var(--dino) , 3em -7em var(--dino) , 4em -7em var(--dino) , 5em -7em var(--dino) , 6em -7em var(--dino) , 7em -7em var(--dino) , 8em -7em var(--dino) , 9em -7em var(--dino) , 10em -7em var(--dino),  1em -6em var(--dino) , 2em -6em var(--dino) , 3em -6em var(--dino) , 4em -6em var(--dino) , 5em -6em var(--dino) , 6em -6em var(--dino) , 7em -6em var(--dino) , 8em -6em var(--dino) , 9em -6em var(--dino) , 10em -6em var(--dino),  1em -5em var(--dino) , 2em -5em var(--dino) , 3em -5em var(--dino) , 4em -5em var(--dino) , 5em -5em var(--dino),  0em -4em var(--dino) , 1em -4em var(--dino) , 2em -4em var(--dino) , 3em -4em var(--dino) , 4em -4em var(--dino) , 5em -4em var(--dino),  -9em -3em var(--dino) , -3em -3em var(--dino) , -2em -3em var(--dino) , -1em -3em var(--dino) , 0em -3em var(--dino) , 1em -3em var(--dino) , 2em -3em var(--dino) , 3em -3em var(--dino) , 4em -3em var(--dino),  -9em -2em var(--dino) , -2em -2em var(--dino) , -1em -2em var(--dino) , 0em -2em var(--dino) , 1em -2em var(--dino) , 2em -2em var(--dino) , 3em -2em var(--dino) , 4em -2em var(--dino),  -9em -1em var(--dino) , -8em -1em var(--dino) , -3em -1em var(--dino) , -2em -1em var(--dino) , -1em -1em var(--dino) , 0em -1em var(--dino) , 1em -1em var(--dino) , 2em -1em var(--dino) , 3em -1em var(--dino) , 4em -1em var(--dino) , 5em -1em var(--dino) , 6em -1em var(--dino),  -9em 0em var(--dino) , -8em 0em var(--dino) , -7em 0em var(--dino) , -4em 0em var(--dino) , -3em 0em var(--dino) , -2em 0em var(--dino) , -1em 0em var(--dino) , 0em 0em var(--dino) , 1em 0em var(--dino) , 2em 0em var(--dino) , 3em 0em var(--dino) , 4em 0em var(--dino) , 6em 0em var(--dino),  -9em 1em var(--dino) , -8em 1em var(--dino) , -7em 1em var(--dino) , -6em 1em var(--dino) , -5em 1em var(--dino) , -4em 1em var(--dino) , -3em 1em var(--dino) , -2em 1em var(--dino) , -1em 1em var(--dino) , 0em 1em var(--dino) , 1em 1em var(--dino) , 2em 1em var(--dino) , 3em 1em var(--dino) , 4em 1em var(--dino),  -8em 2em var(--dino) , -7em 2em var(--dino) , -6em 2em var(--dino) , -5em 2em var(--dino) , -4em 2em var(--dino) , -3em 2em var(--dino) , -2em 2em var(--dino) , -1em 2em var(--dino) , 0em 2em var(--dino) , 1em 2em var(--dino) , 2em 2em var(--dino) , 3em 2em var(--dino) , 4em 2em var(--dino),  -7em 3em var(--dino) , -6em 3em var(--dino) , -5em 3em var(--dino) , -4em 3em var(--dino) , -3em 3em var(--dino) , -2em 3em var(--dino) , -1em 3em var(--dino) , 0em 3em var(--dino) , 1em 3em var(--dino) , 2em 3em var(--dino) , 3em 3em var(--dino),  -6em 4em var(--dino) , -5em 4em var(--dino) , -4em 4em var(--dino) , -3em 4em var(--dino) , -2em 4em var(--dino) , -1em 4em var(--dino) , 0em 4em var(--dino) , 1em 4em var(--dino) , 2em 4em var(--dino),  -5em 5em var(--dino) , -4em 5em var(--dino) , -3em 5em var(--dino) , -2em 5em var(--dino) , -1em 5em var(--dino) , 0em 5em var(--dino) , 1em 5em var(--dino),  -4em 6em var(--dino) , -3em 6em var(--dino) , 0em 6em var(--dino) , 1em 6em var(--dino),  -3em 7em var(--dino) , -2em 7em var(--dino) , 1em 7em var(--dino),  1em 8em var(--dino),  1em 9em var(--dino) , 2em 9em var(--dino);
+  }
+  50% {
+    box-shadow:  2em -10em var(--dino) , 3em -10em var(--dino) , 4em -10em var(--dino) , 5em -10em var(--dino) , 6em -10em var(--dino) , 7em -10em var(--dino) , 8em -10em var(--dino) , 9em -10em var(--dino),  1em -9em var(--dino) , 2em -9em var(--dino) , 4em -9em var(--dino) , 5em -9em var(--dino) , 6em -9em var(--dino) , 7em -9em var(--dino) , 8em -9em var(--dino) , 9em -9em var(--dino) , 10em -9em var(--dino),  1em -8em var(--dino) , 2em -8em var(--dino) , 3em -8em var(--dino) , 4em -8em var(--dino) , 5em -8em var(--dino) , 6em -8em var(--dino) , 7em -8em var(--dino) , 8em -8em var(--dino) , 9em -8em var(--dino) , 10em -8em var(--dino),  1em -7em var(--dino) , 2em -7em var(--dino) , 3em -7em var(--dino) , 4em -7em var(--dino) , 5em -7em var(--dino) , 6em -7em var(--dino) , 7em -7em var(--dino) , 8em -7em var(--dino) , 9em -7em var(--dino) , 10em -7em var(--dino),  1em -6em var(--dino) , 2em -6em var(--dino) , 3em -6em var(--dino) , 4em -6em var(--dino) , 5em -6em var(--dino) , 6em -6em var(--dino) , 7em -6em var(--dino) , 8em -6em var(--dino) , 9em -6em var(--dino) , 10em -6em var(--dino),  1em -5em var(--dino) , 2em -5em var(--dino) , 3em -5em var(--dino) , 4em -5em var(--dino) , 5em -5em var(--dino),  -3em -4em var(--dino) , -2em -4em var(--dino) , 0em -4em var(--dino) , 1em -4em var(--dino) , 2em -4em var(--dino) , 3em -4em var(--dino) , 4em -4em var(--dino) , 5em -4em var(--dino),  -9em -3em var(--dino) , -2em -3em var(--dino) , -1em -3em var(--dino) , 0em -3em var(--dino) , 1em -3em var(--dino) , 2em -3em var(--dino) , 3em -3em var(--dino) , 4em -3em var(--dino),  -9em -2em var(--dino) , -2em -2em var(--dino) , -1em -2em var(--dino) , 0em -2em var(--dino) , 1em -2em var(--dino) , 2em -2em var(--dino) , 3em -2em var(--dino) , 4em -2em var(--dino),  -9em -1em var(--dino) , -8em -1em var(--dino) , -3em -1em var(--dino) , -2em -1em var(--dino) , -1em -1em var(--dino) , 0em -1em var(--dino) , 1em -1em var(--dino) , 2em -1em var(--dino) , 3em -1em var(--dino) , 4em -1em var(--dino),  -9em 0em var(--dino) , -8em 0em var(--dino) , -7em 0em var(--dino) , -4em 0em var(--dino) , -3em 0em var(--dino) , -2em 0em var(--dino) , -1em 0em var(--dino) , 0em 0em var(--dino) , 1em 0em var(--dino) , 2em 0em var(--dino) , 3em 0em var(--dino) , 4em 0em var(--dino) , 5em 0em var(--dino) , 6em 0em var(--dino),  -9em 1em var(--dino) , -8em 1em var(--dino) , -7em 1em var(--dino) , -6em 1em var(--dino) , -5em 1em var(--dino) , -4em 1em var(--dino) , -3em 1em var(--dino) , -2em 1em var(--dino) , -1em 1em var(--dino) , 0em 1em var(--dino) , 1em 1em var(--dino) , 2em 1em var(--dino) , 3em 1em var(--dino) , 4em 1em var(--dino) , 6em 1em var(--dino),  -8em 2em var(--dino) , -7em 2em var(--dino) , -6em 2em var(--dino) , -5em 2em var(--dino) , -4em 2em var(--dino) , -3em 2em var(--dino) , -2em 2em var(--dino) , -1em 2em var(--dino) , 0em 2em var(--dino) , 1em 2em var(--dino) , 2em 2em var(--dino) , 3em 2em var(--dino) , 4em 2em var(--dino),  -7em 3em var(--dino) , -6em 3em var(--dino) , -5em 3em var(--dino) , -4em 3em var(--dino) , -3em 3em var(--dino) , -2em 3em var(--dino) , -1em 3em var(--dino) , 0em 3em var(--dino) , 1em 3em var(--dino) , 2em 3em var(--dino) , 3em 3em var(--dino),  -6em 4em var(--dino) , -5em 4em var(--dino) , -4em 4em var(--dino) , -3em 4em var(--dino) , -2em 4em var(--dino) , -1em 4em var(--dino) , 0em 4em var(--dino) , 1em 4em var(--dino) , 2em 4em var(--dino),  -5em 5em var(--dino) , -4em 5em var(--dino) , -3em 5em var(--dino) , -2em 5em var(--dino) , -1em 5em var(--dino) , 0em 5em var(--dino) , 1em 5em var(--dino),  -4em 6em var(--dino) , -3em 6em var(--dino) , -2em 6em var(--dino) , 1em 6em var(--dino) , 2em 6em var(--dino),  -4em 7em var(--dino) , -3em 7em var(--dino),  -4em 8em var(--dino),  -4em 9em var(--dino) , -3em 9em var(--dino);
+  }
+}
+
+@-moz-keyframes dino {
+  0% {
+    box-shadow:  2em -10em var(--dino) , 3em -10em var(--dino) , 4em -10em var(--dino) , 5em -10em var(--dino) , 6em -10em var(--dino) , 7em -10em var(--dino) , 8em -10em var(--dino) , 9em -10em var(--dino),  1em -9em var(--dino) , 2em -9em var(--dino) , 4em -9em var(--dino) , 5em -9em var(--dino) , 6em -9em var(--dino) , 7em -9em var(--dino) , 8em -9em var(--dino) , 9em -9em var(--dino) , 10em -9em var(--dino),  1em -8em var(--dino) , 2em -8em var(--dino) , 3em -8em var(--dino) , 4em -8em var(--dino) , 5em -8em var(--dino) , 6em -8em var(--dino) , 7em -8em var(--dino) , 8em -8em var(--dino) , 9em -8em var(--dino) , 10em -8em var(--dino),  1em -7em var(--dino) , 2em -7em var(--dino) , 3em -7em var(--dino) , 4em -7em var(--dino) , 5em -7em var(--dino) , 6em -7em var(--dino) , 7em -7em var(--dino) , 8em -7em var(--dino) , 9em -7em var(--dino) , 10em -7em var(--dino),  1em -6em var(--dino) , 2em -6em var(--dino) , 3em -6em var(--dino) , 4em -6em var(--dino) , 5em -6em var(--dino) , 6em -6em var(--dino) , 7em -6em var(--dino) , 8em -6em var(--dino) , 9em -6em var(--dino) , 10em -6em var(--dino),  1em -5em var(--dino) , 2em -5em var(--dino) , 3em -5em var(--dino) , 4em -5em var(--dino) , 5em -5em var(--dino),  0em -4em var(--dino) , 1em -4em var(--dino) , 2em -4em var(--dino) , 3em -4em var(--dino) , 4em -4em var(--dino) , 5em -4em var(--dino),  -9em -3em var(--dino) , -3em -3em var(--dino) , -2em -3em var(--dino) , -1em -3em var(--dino) , 0em -3em var(--dino) , 1em -3em var(--dino) , 2em -3em var(--dino) , 3em -3em var(--dino) , 4em -3em var(--dino),  -9em -2em var(--dino) , -2em -2em var(--dino) , -1em -2em var(--dino) , 0em -2em var(--dino) , 1em -2em var(--dino) , 2em -2em var(--dino) , 3em -2em var(--dino) , 4em -2em var(--dino),  -9em -1em var(--dino) , -8em -1em var(--dino) , -3em -1em var(--dino) , -2em -1em var(--dino) , -1em -1em var(--dino) , 0em -1em var(--dino) , 1em -1em var(--dino) , 2em -1em var(--dino) , 3em -1em var(--dino) , 4em -1em var(--dino) , 5em -1em var(--dino) , 6em -1em var(--dino),  -9em 0em var(--dino) , -8em 0em var(--dino) , -7em 0em var(--dino) , -4em 0em var(--dino) , -3em 0em var(--dino) , -2em 0em var(--dino) , -1em 0em var(--dino) , 0em 0em var(--dino) , 1em 0em var(--dino) , 2em 0em var(--dino) , 3em 0em var(--dino) , 4em 0em var(--dino) , 6em 0em var(--dino),  -9em 1em var(--dino) , -8em 1em var(--dino) , -7em 1em var(--dino) , -6em 1em var(--dino) , -5em 1em var(--dino) , -4em 1em var(--dino) , -3em 1em var(--dino) , -2em 1em var(--dino) , -1em 1em var(--dino) , 0em 1em var(--dino) , 1em 1em var(--dino) , 2em 1em var(--dino) , 3em 1em var(--dino) , 4em 1em var(--dino),  -8em 2em var(--dino) , -7em 2em var(--dino) , -6em 2em var(--dino) , -5em 2em var(--dino) , -4em 2em var(--dino) , -3em 2em var(--dino) , -2em 2em var(--dino) , -1em 2em var(--dino) , 0em 2em var(--dino) , 1em 2em var(--dino) , 2em 2em var(--dino) , 3em 2em var(--dino) , 4em 2em var(--dino),  -7em 3em var(--dino) , -6em 3em var(--dino) , -5em 3em var(--dino) , -4em 3em var(--dino) , -3em 3em var(--dino) , -2em 3em var(--dino) , -1em 3em var(--dino) , 0em 3em var(--dino) , 1em 3em var(--dino) , 2em 3em var(--dino) , 3em 3em var(--dino),  -6em 4em var(--dino) , -5em 4em var(--dino) , -4em 4em var(--dino) , -3em 4em var(--dino) , -2em 4em var(--dino) , -1em 4em var(--dino) , 0em 4em var(--dino) , 1em 4em var(--dino) , 2em 4em var(--dino),  -5em 5em var(--dino) , -4em 5em var(--dino) , -3em 5em var(--dino) , -2em 5em var(--dino) , -1em 5em var(--dino) , 0em 5em var(--dino) , 1em 5em var(--dino),  -4em 6em var(--dino) , -3em 6em var(--dino) , 0em 6em var(--dino) , 1em 6em var(--dino),  -3em 7em var(--dino) , -2em 7em var(--dino) , 1em 7em var(--dino),  1em 8em var(--dino),  1em 9em var(--dino) , 2em 9em var(--dino);
+  }
+  50% {
+    box-shadow:  2em -10em var(--dino) , 3em -10em var(--dino) , 4em -10em var(--dino) , 5em -10em var(--dino) , 6em -10em var(--dino) , 7em -10em var(--dino) , 8em -10em var(--dino) , 9em -10em var(--dino),  1em -9em var(--dino) , 2em -9em var(--dino) , 4em -9em var(--dino) , 5em -9em var(--dino) , 6em -9em var(--dino) , 7em -9em var(--dino) , 8em -9em var(--dino) , 9em -9em var(--dino) , 10em -9em var(--dino),  1em -8em var(--dino) , 2em -8em var(--dino) , 3em -8em var(--dino) , 4em -8em var(--dino) , 5em -8em var(--dino) , 6em -8em var(--dino) , 7em -8em var(--dino) , 8em -8em var(--dino) , 9em -8em var(--dino) , 10em -8em var(--dino),  1em -7em var(--dino) , 2em -7em var(--dino) , 3em -7em var(--dino) , 4em -7em var(--dino) , 5em -7em var(--dino) , 6em -7em var(--dino) , 7em -7em var(--dino) , 8em -7em var(--dino) , 9em -7em var(--dino) , 10em -7em var(--dino),  1em -6em var(--dino) , 2em -6em var(--dino) , 3em -6em var(--dino) , 4em -6em var(--dino) , 5em -6em var(--dino) , 6em -6em var(--dino) , 7em -6em var(--dino) , 8em -6em var(--dino) , 9em -6em var(--dino) , 10em -6em var(--dino),  1em -5em var(--dino) , 2em -5em var(--dino) , 3em -5em var(--dino) , 4em -5em var(--dino) , 5em -5em var(--dino),  -3em -4em var(--dino) , -2em -4em var(--dino) , 0em -4em var(--dino) , 1em -4em var(--dino) , 2em -4em var(--dino) , 3em -4em var(--dino) , 4em -4em var(--dino) , 5em -4em var(--dino),  -9em -3em var(--dino) , -2em -3em var(--dino) , -1em -3em var(--dino) , 0em -3em var(--dino) , 1em -3em var(--dino) , 2em -3em var(--dino) , 3em -3em var(--dino) , 4em -3em var(--dino),  -9em -2em var(--dino) , -2em -2em var(--dino) , -1em -2em var(--dino) , 0em -2em var(--dino) , 1em -2em var(--dino) , 2em -2em var(--dino) , 3em -2em var(--dino) , 4em -2em var(--dino),  -9em -1em var(--dino) , -8em -1em var(--dino) , -3em -1em var(--dino) , -2em -1em var(--dino) , -1em -1em var(--dino) , 0em -1em var(--dino) , 1em -1em var(--dino) , 2em -1em var(--dino) , 3em -1em var(--dino) , 4em -1em var(--dino),  -9em 0em var(--dino) , -8em 0em var(--dino) , -7em 0em var(--dino) , -4em 0em var(--dino) , -3em 0em var(--dino) , -2em 0em var(--dino) , -1em 0em var(--dino) , 0em 0em var(--dino) , 1em 0em var(--dino) , 2em 0em var(--dino) , 3em 0em var(--dino) , 4em 0em var(--dino) , 5em 0em var(--dino) , 6em 0em var(--dino),  -9em 1em var(--dino) , -8em 1em var(--dino) , -7em 1em var(--dino) , -6em 1em var(--dino) , -5em 1em var(--dino) , -4em 1em var(--dino) , -3em 1em var(--dino) , -2em 1em var(--dino) , -1em 1em var(--dino) , 0em 1em var(--dino) , 1em 1em var(--dino) , 2em 1em var(--dino) , 3em 1em var(--dino) , 4em 1em var(--dino) , 6em 1em var(--dino),  -8em 2em var(--dino) , -7em 2em var(--dino) , -6em 2em var(--dino) , -5em 2em var(--dino) , -4em 2em var(--dino) , -3em 2em var(--dino) , -2em 2em var(--dino) , -1em 2em var(--dino) , 0em 2em var(--dino) , 1em 2em var(--dino) , 2em 2em var(--dino) , 3em 2em var(--dino) , 4em 2em var(--dino),  -7em 3em var(--dino) , -6em 3em var(--dino) , -5em 3em var(--dino) , -4em 3em var(--dino) , -3em 3em var(--dino) , -2em 3em var(--dino) , -1em 3em var(--dino) , 0em 3em var(--dino) , 1em 3em var(--dino) , 2em 3em var(--dino) , 3em 3em var(--dino),  -6em 4em var(--dino) , -5em 4em var(--dino) , -4em 4em var(--dino) , -3em 4em var(--dino) , -2em 4em var(--dino) , -1em 4em var(--dino) , 0em 4em var(--dino) , 1em 4em var(--dino) , 2em 4em var(--dino),  -5em 5em var(--dino) , -4em 5em var(--dino) , -3em 5em var(--dino) , -2em 5em var(--dino) , -1em 5em var(--dino) , 0em 5em var(--dino) , 1em 5em var(--dino),  -4em 6em var(--dino) , -3em 6em var(--dino) , -2em 6em var(--dino) , 1em 6em var(--dino) , 2em 6em var(--dino),  -4em 7em var(--dino) , -3em 7em var(--dino),  -4em 8em var(--dino),  -4em 9em var(--dino) , -3em 9em var(--dino);
+  }
+}
+
+@keyframes dino {
+  0% {
+    box-shadow:  2em -10em var(--dino) , 3em -10em var(--dino) , 4em -10em var(--dino) , 5em -10em var(--dino) , 6em -10em var(--dino) , 7em -10em var(--dino) , 8em -10em var(--dino) , 9em -10em var(--dino),  1em -9em var(--dino) , 2em -9em var(--dino) , 4em -9em var(--dino) , 5em -9em var(--dino) , 6em -9em var(--dino) , 7em -9em var(--dino) , 8em -9em var(--dino) , 9em -9em var(--dino) , 10em -9em var(--dino),  1em -8em var(--dino) , 2em -8em var(--dino) , 3em -8em var(--dino) , 4em -8em var(--dino) , 5em -8em var(--dino) , 6em -8em var(--dino) , 7em -8em var(--dino) , 8em -8em var(--dino) , 9em -8em var(--dino) , 10em -8em var(--dino),  1em -7em var(--dino) , 2em -7em var(--dino) , 3em -7em var(--dino) , 4em -7em var(--dino) , 5em -7em var(--dino) , 6em -7em var(--dino) , 7em -7em var(--dino) , 8em -7em var(--dino) , 9em -7em var(--dino) , 10em -7em var(--dino),  1em -6em var(--dino) , 2em -6em var(--dino) , 3em -6em var(--dino) , 4em -6em var(--dino) , 5em -6em var(--dino) , 6em -6em var(--dino) , 7em -6em var(--dino) , 8em -6em var(--dino) , 9em -6em var(--dino) , 10em -6em var(--dino),  1em -5em var(--dino) , 2em -5em var(--dino) , 3em -5em var(--dino) , 4em -5em var(--dino) , 5em -5em var(--dino),  0em -4em var(--dino) , 1em -4em var(--dino) , 2em -4em var(--dino) , 3em -4em var(--dino) , 4em -4em var(--dino) , 5em -4em var(--dino),  -9em -3em var(--dino) , -3em -3em var(--dino) , -2em -3em var(--dino) , -1em -3em var(--dino) , 0em -3em var(--dino) , 1em -3em var(--dino) , 2em -3em var(--dino) , 3em -3em var(--dino) , 4em -3em var(--dino),  -9em -2em var(--dino) , -2em -2em var(--dino) , -1em -2em var(--dino) , 0em -2em var(--dino) , 1em -2em var(--dino) , 2em -2em var(--dino) , 3em -2em var(--dino) , 4em -2em var(--dino),  -9em -1em var(--dino) , -8em -1em var(--dino) , -3em -1em var(--dino) , -2em -1em var(--dino) , -1em -1em var(--dino) , 0em -1em var(--dino) , 1em -1em var(--dino) , 2em -1em var(--dino) , 3em -1em var(--dino) , 4em -1em var(--dino) , 5em -1em var(--dino) , 6em -1em var(--dino),  -9em 0em var(--dino) , -8em 0em var(--dino) , -7em 0em var(--dino) , -4em 0em var(--dino) , -3em 0em var(--dino) , -2em 0em var(--dino) , -1em 0em var(--dino) , 0em 0em var(--dino) , 1em 0em var(--dino) , 2em 0em var(--dino) , 3em 0em var(--dino) , 4em 0em var(--dino) , 6em 0em var(--dino),  -9em 1em var(--dino) , -8em 1em var(--dino) , -7em 1em var(--dino) , -6em 1em var(--dino) , -5em 1em var(--dino) , -4em 1em var(--dino) , -3em 1em var(--dino) , -2em 1em var(--dino) , -1em 1em var(--dino) , 0em 1em var(--dino) , 1em 1em var(--dino) , 2em 1em var(--dino) , 3em 1em var(--dino) , 4em 1em var(--dino),  -8em 2em var(--dino) , -7em 2em var(--dino) , -6em 2em var(--dino) , -5em 2em var(--dino) , -4em 2em var(--dino) , -3em 2em var(--dino) , -2em 2em var(--dino) , -1em 2em var(--dino) , 0em 2em var(--dino) , 1em 2em var(--dino) , 2em 2em var(--dino) , 3em 2em var(--dino) , 4em 2em var(--dino),  -7em 3em var(--dino) , -6em 3em var(--dino) , -5em 3em var(--dino) , -4em 3em var(--dino) , -3em 3em var(--dino) , -2em 3em var(--dino) , -1em 3em var(--dino) , 0em 3em var(--dino) , 1em 3em var(--dino) , 2em 3em var(--dino) , 3em 3em var(--dino),  -6em 4em var(--dino) , -5em 4em var(--dino) , -4em 4em var(--dino) , -3em 4em var(--dino) , -2em 4em var(--dino) , -1em 4em var(--dino) , 0em 4em var(--dino) , 1em 4em var(--dino) , 2em 4em var(--dino),  -5em 5em var(--dino) , -4em 5em var(--dino) , -3em 5em var(--dino) , -2em 5em var(--dino) , -1em 5em var(--dino) , 0em 5em var(--dino) , 1em 5em var(--dino),  -4em 6em var(--dino) , -3em 6em var(--dino) , 0em 6em var(--dino) , 1em 6em var(--dino),  -3em 7em var(--dino) , -2em 7em var(--dino) , 1em 7em var(--dino),  1em 8em var(--dino),  1em 9em var(--dino) , 2em 9em var(--dino);
+  }
+  50% {
+    box-shadow:  2em -10em var(--dino) , 3em -10em var(--dino) , 4em -10em var(--dino) , 5em -10em var(--dino) , 6em -10em var(--dino) , 7em -10em var(--dino) , 8em -10em var(--dino) , 9em -10em var(--dino),  1em -9em var(--dino) , 2em -9em var(--dino) , 4em -9em var(--dino) , 5em -9em var(--dino) , 6em -9em var(--dino) , 7em -9em var(--dino) , 8em -9em var(--dino) , 9em -9em var(--dino) , 10em -9em var(--dino),  1em -8em var(--dino) , 2em -8em var(--dino) , 3em -8em var(--dino) , 4em -8em var(--dino) , 5em -8em var(--dino) , 6em -8em var(--dino) , 7em -8em var(--dino) , 8em -8em var(--dino) , 9em -8em var(--dino) , 10em -8em var(--dino),  1em -7em var(--dino) , 2em -7em var(--dino) , 3em -7em var(--dino) , 4em -7em var(--dino) , 5em -7em var(--dino) , 6em -7em var(--dino) , 7em -7em var(--dino) , 8em -7em var(--dino) , 9em -7em var(--dino) , 10em -7em var(--dino),  1em -6em var(--dino) , 2em -6em var(--dino) , 3em -6em var(--dino) , 4em -6em var(--dino) , 5em -6em var(--dino) , 6em -6em var(--dino) , 7em -6em var(--dino) , 8em -6em var(--dino) , 9em -6em var(--dino) , 10em -6em var(--dino),  1em -5em var(--dino) , 2em -5em var(--dino) , 3em -5em var(--dino) , 4em -5em var(--dino) , 5em -5em var(--dino),  -3em -4em var(--dino) , -2em -4em var(--dino) , 0em -4em var(--dino) , 1em -4em var(--dino) , 2em -4em var(--dino) , 3em -4em var(--dino) , 4em -4em var(--dino) , 5em -4em var(--dino),  -9em -3em var(--dino) , -2em -3em var(--dino) , -1em -3em var(--dino) , 0em -3em var(--dino) , 1em -3em var(--dino) , 2em -3em var(--dino) , 3em -3em var(--dino) , 4em -3em var(--dino),  -9em -2em var(--dino) , -2em -2em var(--dino) , -1em -2em var(--dino) , 0em -2em var(--dino) , 1em -2em var(--dino) , 2em -2em var(--dino) , 3em -2em var(--dino) , 4em -2em var(--dino),  -9em -1em var(--dino) , -8em -1em var(--dino) , -3em -1em var(--dino) , -2em -1em var(--dino) , -1em -1em var(--dino) , 0em -1em var(--dino) , 1em -1em var(--dino) , 2em -1em var(--dino) , 3em -1em var(--dino) , 4em -1em var(--dino),  -9em 0em var(--dino) , -8em 0em var(--dino) , -7em 0em var(--dino) , -4em 0em var(--dino) , -3em 0em var(--dino) , -2em 0em var(--dino) , -1em 0em var(--dino) , 0em 0em var(--dino) , 1em 0em var(--dino) , 2em 0em var(--dino) , 3em 0em var(--dino) , 4em 0em var(--dino) , 5em 0em var(--dino) , 6em 0em var(--dino),  -9em 1em var(--dino) , -8em 1em var(--dino) , -7em 1em var(--dino) , -6em 1em var(--dino) , -5em 1em var(--dino) , -4em 1em var(--dino) , -3em 1em var(--dino) , -2em 1em var(--dino) , -1em 1em var(--dino) , 0em 1em var(--dino) , 1em 1em var(--dino) , 2em 1em var(--dino) , 3em 1em var(--dino) , 4em 1em var(--dino) , 6em 1em var(--dino),  -8em 2em var(--dino) , -7em 2em var(--dino) , -6em 2em var(--dino) , -5em 2em var(--dino) , -4em 2em var(--dino) , -3em 2em var(--dino) , -2em 2em var(--dino) , -1em 2em var(--dino) , 0em 2em var(--dino) , 1em 2em var(--dino) , 2em 2em var(--dino) , 3em 2em var(--dino) , 4em 2em var(--dino),  -7em 3em var(--dino) , -6em 3em var(--dino) , -5em 3em var(--dino) , -4em 3em var(--dino) , -3em 3em var(--dino) , -2em 3em var(--dino) , -1em 3em var(--dino) , 0em 3em var(--dino) , 1em 3em var(--dino) , 2em 3em var(--dino) , 3em 3em var(--dino),  -6em 4em var(--dino) , -5em 4em var(--dino) , -4em 4em var(--dino) , -3em 4em var(--dino) , -2em 4em var(--dino) , -1em 4em var(--dino) , 0em 4em var(--dino) , 1em 4em var(--dino) , 2em 4em var(--dino),  -5em 5em var(--dino) , -4em 5em var(--dino) , -3em 5em var(--dino) , -2em 5em var(--dino) , -1em 5em var(--dino) , 0em 5em var(--dino) , 1em 5em var(--dino),  -4em 6em var(--dino) , -3em 6em var(--dino) , -2em 6em var(--dino) , 1em 6em var(--dino) , 2em 6em var(--dino),  -4em 7em var(--dino) , -3em 7em var(--dino),  -4em 8em var(--dino),  -4em 9em var(--dino) , -3em 9em var(--dino);
+  }
+}
+
+.animation {
+  font-size: 5px;
+  height: 1em;
+  position: absolute;
+  left: 50%;
+  bottom: calc(2rem + 11em);
+  transform: translateX(-50%);
+  width: 1em;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-16em);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.animation.jump {
+  animation: jump 420ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.animation > div {
+  background: var(--dino);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: .6em;
+  height: .6em;
+}
+
+.dino {
+  -webkit-animation: dino 0.25s both steps(1) infinite;
+  -moz-animation: dino 0.25s both steps(1) infinite;
+  animation: dino 0.25s both steps(1) infinite;
+}
+
+.eye {
+  -webkit-animation: eye 4s both steps(1) infinite;
+  -moz-animation: eye 4s both steps(1) infinite;
+  animation: eye 4s both steps(1) infinite;
+}
+
+.mouth {
+  -webkit-animation: mouth 4s both steps(1) infinite;
+  -moz-animation: mouth 4s both steps(1) infinite;
+  animation: mouth 4s both steps(1) infinite;
+}
+
+.ground {
+  -webkit-animation: ground 0.5s both steps(1) infinite;
+  -moz-animation: ground 0.5s both steps(1) infinite;
+  animation: ground 0.5s both steps(1) infinite;
+}
