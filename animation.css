@@ -220,7 +220,7 @@
   animation: ground 0.5s both steps(1) infinite;
 }
 
-@media (orientation: portrait) and (hover: none) and (pointer: coarse) {
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
   .animation {
     display: none;
   }
