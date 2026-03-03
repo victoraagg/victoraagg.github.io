@@ -18,91 +18,8 @@
 <meta name="twitter:title" content="Víctor Alonso" />
 <meta name="twitter:description" content="Software Engineer." />
 <meta name="twitter:image" content="https://victoraagg.github.io/og-image.png" />
+<link rel="stylesheet" href="./style.css" />
 <link rel="stylesheet" href="./animation.css" />
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap');
-
-:root {
-  --bg: #0d1117;
-  --text: #dde2e6;
-  --btn: #282d33;
-  --btn-hover: #30363d;
-  --btn-opacity: 70%;
-  --btn-hover-opacity: 85%;
-  --btn-bg: color-mix(in srgb, var(--btn) var(--btn-opacity), transparent);
-  --btn-hover-bg: color-mix(in srgb, var(--btn-hover) var(--btn-hover-opacity), transparent);
-  --accent: #6F42C1;
-  --accent-secondary: #3b82f6;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  height: 100%;
-  overflow: hidden;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background:
-    radial-gradient(circle at 20% 10%, color-mix(in srgb, var(--bg) 20%, transparent) 0%, transparent 40%),
-    radial-gradient(circle at 85% 90%, color-mix(in srgb, var(--accent) 30%, transparent) 0%, transparent 40%),
-    var(--bg);
-  color: var(--text);
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: normal;
-}
-
-.container {
-  padding: 1.5rem;
-  margin-inline: auto;
-  z-index: 2;
-}
-
-.header {
-  margin-bottom: 3rem;
-
-  h1 {
-    font-size: clamp(2.5rem, 6vw, 6rem);
-    font-weight: 800;
-    letter-spacing: clamp(-0.2rem, calc(-0.1rem - 0.15vw), -0.1rem);
-  }
-
-  h2 {
-    font-size: clamp(1rem, 1.5vw, 2rem);
-    font-weight: normal;
-  }
-}
-
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-
-  a {
-    padding: 0.45rem 0.95rem .6rem;
-    border-radius: 999px;
-    background: var(--btn-bg);
-    color: var(--text);
-    text-decoration: none;
-    transition: background-color 0.15s ease;
-
-    &:hover {
-      background: var(--btn-hover-bg);
-    }
-
-    &:focus-visible {
-      outline: 2px solid var(--accent-secondary);
-    }
-  }
-}
-</style>
 </head>
 <body>
   <div class="animation">
@@ -125,47 +42,6 @@ body {
       </a>
     </div>
   </div>
-  <script>
-    const animationEl = document.querySelector('.animation');
-
-    function jumpDino() {
-      if (!animationEl) {
-        return;
-      }
-
-      animationEl.classList.remove('jump');
-      void animationEl.offsetWidth;
-      animationEl.classList.add('jump');
-    }
-
-    function isInteractiveTarget(target) {
-      return Boolean(target?.closest('a'));
-    }
-
-    function handleJumpTrigger(event) {
-      if (isInteractiveTarget(event.target)) {
-        return;
-      }
-
-      jumpDino();
-    }
-
-    document.addEventListener('keydown', (event) => {
-      if (event.code === 'Space') {
-        event.preventDefault();
-        handleJumpTrigger(event);
-      }
-    });
-
-    if (window.PointerEvent) {
-      document.addEventListener('pointerdown', (event) => {
-        if (event.pointerType === 'touch') {
-          handleJumpTrigger(event);
-        }
-      });
-    } else {
-      document.addEventListener('touchstart', handleJumpTrigger, { passive: true });
-    }
-  </script>
+  <script src="./animation.js"></script>
 </body>
 </html>
