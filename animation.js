@@ -11,7 +11,7 @@ function jumpDino() {
 }
 
 function isInteractiveTarget(target) {
-  return Boolean(target?.closest('a, button, input, select, textarea, [role="button"]'));
+  return Boolean(target?.closest('a, button'));
 }
 
 function handleJumpTrigger(event) {
