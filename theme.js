@@ -10,7 +10,7 @@ function updateThemeToggleLabel(theme) {
     return;
   }
 
-  themeToggleEl.textContent = theme === 'dark' ? '☀️' : '🌙';
+  themeToggleEl.textContent = theme === 'dark' ? '☀️' : '🌚';
   themeToggleEl.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`);
 }
 
